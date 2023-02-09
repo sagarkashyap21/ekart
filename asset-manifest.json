@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ekart/static/css/main.865ccd83.css",
+    "main.js": "/ekart/static/js/main.9b10cb54.js",
+    "static/js/787.1b0c789f.chunk.js": "/ekart/static/js/787.1b0c789f.chunk.js",
+    "index.html": "/ekart/index.html",
+    "main.865ccd83.css.map": "/ekart/static/css/main.865ccd83.css.map",
+    "main.9b10cb54.js.map": "/ekart/static/js/main.9b10cb54.js.map",
+    "787.1b0c789f.chunk.js.map": "/ekart/static/js/787.1b0c789f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.865ccd83.css",
+    "static/js/main.9b10cb54.js"
+  ]
+}
