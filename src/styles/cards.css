@@ -85,6 +85,8 @@ section{
    .cards{
        margin-left: 10px;
        width: 240px;
+       /* border: 2px solid red; */
+       margin-bottom: 30px;
        display: grid;
     
    }

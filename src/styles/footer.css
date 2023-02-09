@@ -38,7 +38,35 @@
     width: 80px;
 }
 
-.ul1 img:nth-child(3){
-    /* border: 2px solid red; */
+#twitter{
+    height:50px;
+    width:60px;
+    margin-Top:20px;
+}
+@media screen and (max-width:740px) {
+    .ul1 li img{
+        height: 50px;
+        width: 50px;
+    }
+    .first{
+        margin-top: 30px;
+    }
+    #copyright{
+        font-size: 13px;
+        /* margin-left: 20px; */
+    }
+    #twitter{
+        /* border: 2px solid red; */
+        margin-top:10px;
+        height: 30px;
+        width: 40px;
+    }
    
+
+    .container{
+        width: 100%;
+    }
+    #img1{
+        width: 150px;
+    }
 }

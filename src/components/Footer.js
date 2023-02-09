@@ -10,7 +10,7 @@ export default function Footer() {
                     <ul className="ul1">
                         <li><img src="https://www.mmppicture.co.in/wp-content/uploads/2021/03/Facebook-Icon-PNG-36.png" alt="" /></li>
                         <li><img src="https://i.pinimg.com/originals/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg" alt="" /></li>
-                        <li><img style={{height:"50px",width:"60px",marginTop:"20px"}} src="https://icon-library.com/images/twitter-icon-black-background/twitter-icon-black-background-17.jpg" alt="" /></li>
+                        <li><img id="twitter"  src="https://icon-library.com/images/twitter-icon-black-background/twitter-icon-black-background-17.jpg" alt="" /></li>
                     </ul>
                 </div>
                 <div  data-aos="flip-right" style={{ display: "flex", justifyContent: "space-evenly", marginTop: "50px", width: "40%" }}>
@@ -30,7 +30,7 @@ export default function Footer() {
 
                 </div>
             </div>
-            <p style={{ display: "flex", justifyContent: "center" }}>@Copyright 1999-2023 by Refsnes Data. All Rights Reserved.</p>
+            <p id="copyright" style={{ display: "flex", justifyContent: "center" }}>@Copyright 1999-2023 by Refsnes Data. All Rights Reserved.</p>
         </div>
     )
 }
