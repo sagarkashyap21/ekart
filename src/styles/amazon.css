@@ -11,3 +11,19 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+#offer{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 10px;
+}
+
+@media screen and (max-width:740px) {
+    #offer{
+        /* border: 2px solid red; */
+        height: 180px;
+        left: 200px;
+        width: 150px;
+    }
+}

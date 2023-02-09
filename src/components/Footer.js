@@ -6,6 +6,7 @@ export default function Footer() {
         <div className="container" >
             <div className="div1" data-aos="flip-left">
                 <div className="first" >
+                    
                     <img id="img1" src="https://ekartlogistics.com/assets/images/ekWhiteLogo.png" alt="" />
                     <ul className="ul1">
                         <li><img src="https://www.mmppicture.co.in/wp-content/uploads/2021/03/Facebook-Icon-PNG-36.png" alt="" /></li>
