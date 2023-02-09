@@ -1,0 +1,92 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    /* margin-left: 270px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color:blue ; */
+    /* border: 2px solid red; */
+    grid-template-rows: auto;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+ 
+.cards{
+    width: 400px;
+    display: flex;
+    margin-left: 90px;
+    /* justify-content: space-between; */
+    /* padding:10px; */
+    /* display: block; */
+    /* margin: auto; */
+    /* color: black; */
+    padding: 20px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    /* background-color: black; */
+}
+.image_box img{
+    width: 150px;
+    height: 200px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+    /* background-color: black; */
+    
+    /* border: 2px solid red; */
+}
+.details p:nth-child(2){
+    margin-top: 10px;
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    font-size: 30px;
+    /* width: 300px; */
+
+    /* margin-top: 10px; */
+    color:skyblue;
+}
+.details{
+    margin-left: 20px;
+}
+.details button{
+    /* margin-top: 30px; */
+    padding: 5px 10px;
+    border: none;
+
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    /* border:2px solid red; */
+    border-radius: 20px;
+    outline: none;
+    /* border-radius: 2px; */
+}
+.details button:hover{
+    /* background-color: rgb(228, 182, 97); */
+    background-color: orange;
+    color: black;
+}
+
+@media screen and (max-width:740px) {
+   section{
+       /* margin-left:8px; */
+       /* background-color: orange; */
+       /* margin-right: 700px; */
+    grid-template-columns: repeat(1, 1fr);
+
+   } 
+   .cards{
+       margin-left: 10px;
+       width: 240px;
+       display: grid;
+    
+   }
+    
+}
